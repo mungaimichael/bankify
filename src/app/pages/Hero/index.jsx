@@ -6,8 +6,8 @@ import MediaSections from "@/app/components/MediaSections"
 import Image from 'next/image'
 
 const index = () => {
-    const sshotOne = require("@/app/../../assets/payments.png");
-    const sshotTwo = require("@/app/../../assets/payments2.png");
+    // const sshotOne = require("@/app/../../assets/payments.png");
+    // const sshotTwo = require("@/app/../../assets/payments2.png");
 
     return (
         <div className='md:h-5/6  flex flex-col  container ' >
