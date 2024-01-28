@@ -6,12 +6,10 @@ const index = () => {
     return (
         <div className='
         w-5/6 
-        md:w-1/2 h-full  container mt-4  flex flex-col ' >
+        md:w-1/2 h-full  container mt-4  flex flex-col lg:items-center justify-around ' >
             <FaceBook />
             <CallCard />
             <Payment />
-
-
         </div>
     )
 }
@@ -22,7 +20,7 @@ function FaceBook() {
 
     return (
         <div className='
-        w-full h-1/6 my-3 mx-auto
+        w-full h-1/6  mx-auto
         md:h-1/6 rounded-xl md:w-1/2 bg-white backdrop-blur-lg bg-opacity-10 flex items-center justify-center md:mx-0 lg:my-0 '>
             <>
                 <div className="bg-white  rounded-full relative mr-5 ">
@@ -58,16 +56,21 @@ function CallCard() {
             style={{
                 boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1), 0 16px 32px rgba(0, 0, 0, 0.2)',
             }}
-            className="w-full mx-auto h-1/2  rounded-xl md:w-1/2 bg-black backdrop-blur-lg bg-opacity-40 flex flex-col items-center justify-center space-y-4 md:mx-0 md:mt-3 ">
+            className="w-full mx-auto h-1/2  rounded-xl md:w-1/2 bg-black backdrop-blur-lg bg-opacity-40 flex flex-col items-center justify-center space-y-4 md:mx-0  ">
             <h1 className='font-primary font-bold md:text-2xl'>Cab Driver</h1>
             <p className='font-thin font-primary'>Incoming Call ...</p>
             <div className="flex w-1/2 justify-around items-center opacity-50">
-                <span>
-                    <Image width={50} src={accept} alt='incoming' className='m-1' />
+                <span
+                    className=" group "
+
+                >
+                    <Image
+                        className="group-hover:animate-pulse m-1 "
+                        width={50} src={accept} alt='incoming' />
                     Accept
                 </span>
-                <span>
-                    <Image width={50} src={decline} alt='decline' className='m-1' />
+                <span className='group' >
+                    <Image width={50} src={decline} alt='decline' className='group-hover:animate-pulse m-1' />
                     Decline
                 </span>
             </div>
@@ -86,7 +89,7 @@ function Payment() {
 
     return (
         <div className='
-        w-full h-1/6 mx-auto relative mt-3
+        w-full h-1/6 mx-auto relative 
         md:h-1/5 rounded-xl md:w-1/2 bg-white backdrop-blur-lg bg-opacity-10 flex items-center justify-start lg:justify-center md:mx-0 '>
 
             <div className="absolute top-2 right-4 flex justify-center  space-x-1 lg:space-x-3 items-center ">
