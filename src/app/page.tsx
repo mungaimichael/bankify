@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
       <Hero/>
       </div>
-      <SectionOne/>  
+      {/* <SectionOne/>   */}
     </div>
   )
 }
