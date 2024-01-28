@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import Header from "@/app/components/Header"
 import Hero from "@/app/pages/Hero"
-import SectionOne from "@/app/pages/SectionOne"
 export default function Home() {
   return (
     <div className='h-screen' >
@@ -9,7 +7,6 @@ export default function Home() {
       <Header />
       <Hero/>
       </div>
-      {/* <SectionOne/>   */}
     </div>
   )
 }

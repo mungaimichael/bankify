@@ -3,12 +3,8 @@ import React from 'react'
 
 import Button from "@/app/components/Button"
 import MediaSections from "@/app/components/MediaSections"
-import Image from 'next/image'
 
 const index = () => {
-    // const sshotOne = require("@/app/../../assets/payments.png");
-    // const sshotTwo = require("@/app/../../assets/payments2.png");
-
     return (
         <div className='md:h-5/6  flex flex-col  container ' >
             <div className="flex flex-col justify-center items-center">
