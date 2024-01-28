@@ -22,8 +22,9 @@ const index = () => {
                     <Button title="Contact" />
                 </div>
             </div>
-            <div className="w-full h-[60vh] lg:h-full">
-                <MediaSections />
+            <div className="w-full h-[60vh] lg:h-ful ">
+                <MediaSections
+                />
             </div>
         </div>
     )
