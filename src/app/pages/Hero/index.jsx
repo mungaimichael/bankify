@@ -8,7 +8,7 @@ const index = () => {
     return (
         <div className='md:h-5/6  flex flex-col  container ' >
             <div className="flex flex-col justify-center items-center">
-                <h1 className=' text-center mt-12 md:mt-0 text-xl lg:text-5xl font-primary font-bold md:w-1/2  capitalize  ' >
+                <h1 className=' text-center mt-6 md:mt-0 text-xl lg:text-5xl  font-bold md:w-1/2  capitalize  ' >
                     Omnichannel automation platform for API's , Service and Marketing
                 </h1>
                 <p className='
@@ -17,12 +17,12 @@ const index = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aperiam tempore iste modi voluptatibus earum ipsum soluta?
                 </p>
-                <div className="  w-full md:w-1/4 flex justify-center space-x-3 md:space-x-0 md:justify-around">
+                <div className=" w-full md:w-1/4 flex justify-center space-x-2 md:space-x-0 md:justify-around">
                     <Button title="Submit" primary />
                     <Button title="Contact" />
                 </div>
             </div>
-            <div className="w-full h-[60vh] lg:h-ful ">
+            <div className="w-full  lg:h-full ">
                 <MediaSections
                 />
             </div>

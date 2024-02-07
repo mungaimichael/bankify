@@ -6,7 +6,7 @@ const index = () => {
     return (
         <div className='
         w-5/6  
-        md:w-1/2 h-full  container mt-4  flex flex-col lg:items-center justify-center ' >
+        md:w-1/2 h-full  container  flex flex-col lg:items-center justify-center ' >
             <FaceBook />
             <CallCard />
             <Payment />
@@ -56,9 +56,9 @@ function CallCard() {
             style={{
                 boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1), 0 16px 32px rgba(0, 0, 0, 0.2)',
             }}
-            className="w-full mx-auto h-1/2  rounded-xl md:w-1/2 bg-black backdrop-blur-lg bg-opacity-40 flex flex-col items-center justify-center space-y-4 md:mx-0  ">
-            <h1 className='font-primary font-bold md:text-2xl'>Cab Driver</h1>
-            <p className='font-thin font-primary'>Incoming Call ...</p>
+            className="w-full mx-auto h-1/3 md:h-1/2  rounded-xl md:w-1/2 bg-black backdrop-blur-lg bg-opacity-40 flex flex-col items-center justify-center space-y-2 md:mx-0  ">
+            <h1 className=' font-bold md:text-2xl'>Cab Driver</h1>
+            <p className='font-thin '>Incoming Call ...</p>
             <div className="flex w-1/2 justify-around items-center opacity-50">
                 <span
                     className=" group "
