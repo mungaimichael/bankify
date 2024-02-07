@@ -5,8 +5,8 @@ const index = () => {
 
     return (
         <div className='
-        w-5/6 
-        md:w-1/2 h-full  container mt-4  flex flex-col lg:items-center justify-around ' >
+        w-5/6  
+        md:w-1/2 h-full  container mt-4  flex flex-col lg:items-center justify-center ' >
             <FaceBook />
             <CallCard />
             <Payment />
